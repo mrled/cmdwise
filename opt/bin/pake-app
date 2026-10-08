@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+"""Run pakeapps, including through external symlinks."""
+
+import os
+import sys
+from importlib import import_module
+
+sys.path.insert(
+    0, os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), 'lib')
+)
+
+if __name__ == '__main__':
+    sys.exit(import_module('pakeapps.cli').main())
