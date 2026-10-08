@@ -10,7 +10,7 @@ This also would allow text fields to support Emacs keybindings even in other app
 
 It's good to have consistent keybindings across all apps, including terminals and advanced text editors. It makes sense to use a different shortcut key for GUI operations compared to Unix/terminal ones.
 
-It's worth asking app developers, commercial vendors, desktop environment projects, and so forth for party command key support. Keyboard conventions work best as conventions followed by all parties.
+It's worth asking app developers, commercial vendors, desktop environment projects, and so forth for first party command key support. Keyboard conventsons work best as conventions followed by all parties.
 
 Note that in some cases, the easiest way to achieve cmdwise apps is to use macOS keybindings wholesale. The goal is not to clone the macOS experience, but to steal the command key feature from them; this just happens to be the most expedient way to do so.
 
