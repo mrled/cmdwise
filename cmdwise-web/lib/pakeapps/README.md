@@ -1,7 +1,7 @@
 # pake-app
 
 Generate Pake apps with Mac-style editing shortcuts.
-The symlink-safe shim lives in `opt/bin/pake-app`; Python needs no extra packages.
+The symlink-safe shim lives in `cmdwise-web/bin/pake-app`; Python needs no extra packages.
 
 ```sh
 pake-app https://mattermost.awful.club --name mattermost.awful.club \
@@ -59,6 +59,6 @@ Command means Meta/Super; Option means Alt.
 ## Tests
 
 ```sh
-python3 -m unittest discover -s opt/lib/pakeapps/tests -v
-node --test opt/lib/pakeapps/tests/*.test.cjs
+python3 -m unittest discover -s cmdwise-web/lib/pakeapps/tests -v
+node --test cmdwise-web/lib/pakeapps/tests/*.test.cjs
 ```
